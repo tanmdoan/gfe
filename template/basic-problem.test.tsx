@@ -1,5 +1,10 @@
-import { describe, test, expect } from 'vitest'
+import { describe, test, expect } from 'vitest';
 
+import solveMe from './basic-problem'
 
-describe('yo', () =>
-{ test('yo', () => { expect(1).toBe(1) }) })
+describe('yo', () => {
+    test('yo', () => {
+        expect(solveMe()).toBe(1);
+    });
+
+});
